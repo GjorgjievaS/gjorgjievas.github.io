@@ -1,0 +1,175 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <meta charset="UTF-8">
+    <title>Крстозбор</title>
+    <link rel="stylesheet" href="jquery-ui-1.13.1.custom/jquery-ui.css">
+    <link rel="stylesheet" href="styleflex.css">
+    <script src="jquery-ui-1.13.1.custom/external/jquery/jquery.js"></script>
+    <script src="jquery-ui-1.13.1.custom/jquery-ui.js"></script>
+    <script src="script.js"></script>
+
+
+</head>
+
+<body>
+    <div id="login">
+        <span>Твоето име е:</span>
+        <input type="text" id="name">
+        <span>Лозинка</span>
+        <input type="password" id="pass"  maxlength="15" placeholder="Внеси 5-15 карактери">
+        <span id="errormsg" class="errormsg">*Пробај друга лозинка</span>
+    </div>
+  
+    <div id="extra" class="blur">
+        <p>Здраво <span id="ime"></span></p>
+        <!-- <img id="message" src="message.png"> -->
+        <img id="sound" src="speaker-dark.png">
+        <img id="light" src="light-dark.png">
+    </div>
+
+    <div id="game">
+        <div id="container" class="blur">
+            <input type="button"  id="left" value="<">
+            <table id="puzzle">
+                <tr>
+                    <td></td>
+                    <td></td>
+                    <td></td>
+                    <td></td>
+                    <td></td>
+                    <td></td>
+                    <td></td>
+                    <td></td>
+                    <td></td>
+                    <td></td>
+                </tr>
+                <tr>
+                    <td></td>
+                    <td></td>
+                    <td></td>
+                    <td></td>
+                    <td></td>
+                    <td></td>
+                    <td></td>
+                    <td></td>
+                    <td></td>
+                    <td></td>
+                </tr>
+                <tr>
+                    <td></td>
+                    <td></td>
+                    <td></td>
+                    <td></td>
+                    <td></td>
+                    <td></td>
+                    <td></td>
+                    <td></td>
+                    <td></td>
+                    <td></td>
+                </tr>
+                <tr>
+                    <td></td>
+                    <td></td>
+                    <td></td>
+                    <td></td>
+                    <td></td>
+                    <td></td>
+                    <td></td>
+                    <td></td>
+                    <td></td>
+                    <td></td>
+                </tr>
+                <tr>
+                    <td></td>
+                    <td></td>
+                    <td></td>
+                    <td></td>
+                    <td></td>
+                    <td></td>
+                    <td></td>
+                    <td></td>
+                    <td></td>
+                    <td></td>
+                </tr>
+                <tr>
+                    <td></td>
+                    <td></td>
+                    <td></td>
+                    <td></td>
+                    <td></td>
+                    <td></td>
+                    <td></td>
+                    <td></td>
+                    <td></td>
+                    <td></td>
+                </tr>
+                <tr>
+                    <td></td>
+                    <td></td>
+                    <td></td>
+                    <td></td>
+                    <td></td>
+                    <td></td>
+                    <td></td>
+                    <td></td>
+                    <td></td>
+                    <td></td>
+                </tr>
+                <tr>
+                    <td></td>
+                    <td></td>
+                    <td></td>
+                    <td></td>
+                    <td></td>
+                    <td></td>
+                    <td></td>
+                    <td></td>
+                    <td></td>
+                    <td></td>
+                </tr>
+                <tr>
+                    <td></td>
+                    <td></td>
+                    <td></td>
+                    <td></td>
+                    <td></td>
+                    <td></td>
+                    <td></td>
+                    <td></td>
+                    <td></td>
+                    <td></td>
+                </tr>
+                <tr>
+                    <td></td>
+                    <td></td>
+                    <td></td>
+                    <td></td>
+                    <td></td>
+                    <td></td>
+                    <td></td>
+                    <td></td>
+                    <td></td>
+                    <td></td>
+                </tr>
+            </table>
+            
+    <input type="button" id="right" value=">">
+        </div>
+        <div id="controls" class="blur">
+            <span id="desc"></span>
+    <input type="text" id="test" maxlength="10">
+    <input type="button" id="clicker" value="insert">
+    
+        </div>
+    </div>
+    <div id="finish">
+        <img src="trophy.png"><br>
+        <img id="congrat" src="congratulations-light.png"><br>
+        <p id="playagain" class="box">Играј повторно</p>
+    </div>
+    <audio id="zvuk" src="bgMusic.mp3" autoplay preload="none" loop></audio>
+</body>
+
+</html>
