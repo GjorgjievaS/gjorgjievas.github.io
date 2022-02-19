@@ -260,7 +260,7 @@ var dictionary=[
 var focusWord
         var username='';
         var password='';
-    var currentLevel=7;
+    var currentLevel=0;
         function show(element){
             var characters=element.value.split('');
 
